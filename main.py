@@ -17,3 +17,8 @@ model.add(tensorflow.keras.layers.Dense(256, activation='sigmoid'))
 model.add(tensorflow.keras.layers.Dense(1, activation='sigmoid'))
 model.compile(optimizer='adam', loss='binary_crossentropy',metrics=['accuracy'])
 
+model.fit(x,y, epochs=1000)
+
+
+
+
