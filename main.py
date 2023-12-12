@@ -4,8 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 # Read the dataset from CSV
-dataset = pandas.read_csv('/Users/oliverjohnson/loan-eligibility-predictor/loan-train.csv')
-
+dataset = pandas.read_csv('loan-train.csv')
 # Separate features (x) and target variable (y)
 x = dataset.drop(columns=['Loan_Status'])
 y = dataset['Loan_Status']
