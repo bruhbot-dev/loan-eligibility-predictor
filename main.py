@@ -2,8 +2,7 @@ import pandas
 import tensorflow 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from keras.optimizers import SGD
-opt = SGD(lr=0.01)
+
 
 
 
